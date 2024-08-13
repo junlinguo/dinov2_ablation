@@ -82,5 +82,9 @@ The paths defined in dgx server:
     
 ## SSL architecture 
 - ssl arch: /dinov2/train/ssl_meta_arch.py. Student models, Teacher model  logic 
-- train script: /dinov2/train/
+- train script: /dinov2/train/trainxx.py
+
+### Model 
+This vit model can be changed for different input shape, for example, the in chans can vary. 
+if rgb: modify this /dinov2/models/vision_transformer.py. in_chan
 
